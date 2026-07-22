@@ -1,6 +1,6 @@
 # pq-eraser-standalone
 
-Someone needed an eraser that removes tiles across all selected layers and levels. Since Automapper/pq-tools 5.0 is still unfinished and may take a while longer, I am sharing this small standalone tool in case anyone else needs it.
+Someone needed an eraser that removes tiles across all layers and levels. Since Automapper/pq-tools 5.0 is still unfinished and may take a while longer, I am sharing this small standalone tool in case anyone else needs it.
 
 ## Options
 
