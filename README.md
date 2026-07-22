@@ -26,12 +26,9 @@ tool
 
 ## Usage
 
-Click and drag to erase a larger area. A single click erases one tile (1×1) across all selected layers and levels.
+Click and drag to erase a larger area. A single click erases one tile (1×1) across all layers and levels.
 
-If the selected area contains RoomDefs and the RoomDef option is enabled, a blue selection box remains after erasing. Remove the selected RoomDefs with:
-
-`Tools -> RoomDefecator -> Remove RoomDefs`
-
+`Tools -> RoomDefecator -> Remove RoomDefs` if the Area contains Roomdefs
 ## Compatibility
 
 This tool has only been tested with Alree's B42 tools. I could not find a way to delete RoomDefs with a single click using Alree's tools.
