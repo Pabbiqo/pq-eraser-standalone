@@ -32,3 +32,5 @@ Click and drag to erase a larger area. A single click erases one tile (1×1) acr
 ## Compatibility
 
 This tool has only been tested with Alree's B42 tools. I could not find a way to delete RoomDefs with a single click using Alree's tools.
+
+Big Thanks to Alree for all the Help he offered!
