@@ -1,15 +1,23 @@
-# pq-eraser-standalone
-Someone needed an eraser that deletes tiles across all layers and levels. Since Automapper/pq-tools 5.0 is still unfinished for more Weeks, im sharing this small standalone tool in case anyone else needs it.
+pq-eraser-standalone
 
-Options:
+Someone needed an eraser that removes tiles across all selected layers and levels. Since Automapper/pq-tools 5.0 is still unfinished and may take a while longer, I am sharing this small standalone tool in case anyone else needs it.
+
+Options
 
 Choose the highest level to erase (1–32)
+
 Ignore the Floor layer on level 0
-Delete BMP colors from BMP0/BMP1
+
+Delete BMP0 colors
+
+Delete BMP1 colors
+
 Prepare RoomDefs for removal
 
+Installation
+
 Add the following entry to your LuaTools.txt:
-``
+
 tool
 {
     label = Layer Eraser on All Levels
@@ -17,11 +25,15 @@ tool
     script = tool-pq-eraser.lua
     dialog-title = Layer Eraser on All Levels
 }
-``
-If the selected area contains RoomDefs, a blue selection box remains after erasing. To remove them, select:
 
-Tools -> RoomDefecator -> Remove RoomDefs
+Usage
 
-A single Click deletes only 1x1 Space on all Layers awell.
+Click and drag to erase a larger area. A single click erases one tile (1×1) across all selected layers and levels.
 
-This tool has only been tested with Alrees B42 tools. I could not find a way to delete RoomDefs with a single click using Alrees tools.
+If the selected area contains RoomDefs and the RoomDef option is enabled, a blue selection box remains after erasing. Remove the selected RoomDefs with:
+
+Tools -< RoomDefecator -> Remove RoomDefs
+
+Compatibility
+
+This tool has only been tested with Alree's B42 tools. I could not find a way to delete RoomDefs with a single click using Alree's tools.
